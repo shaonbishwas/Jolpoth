@@ -1,10 +1,149 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/fd4d75259d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <header class="right-0 left-0 mx-auto fixed">
+      <div class="navbar max-w-[1400px] mx-auto text-white">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black rounded-box w-52"
+            >
+              <li>
+                <a href="../home.html" class="mx-4 "> Home </a>
+              </li>
+              <li>
+                <a href="./blogs.html" class="mx-4"> Blogs </a>
+              </li>
+              <li>
+                <a href="./about.html" class="mx-4"> About Us </a>
+              </li>
+              <li>
+                <a href="./our_tours.html" class="mx-4"> Our Tours </a>
+              </li>
+              <li>
+                <a href="./travelStory.html" class="mx-4"> Travel Story </a>
+              </li>
+              <li>
+                <a href="./contact.html" class="mx-4"> Contact us </a>
+              </li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-2xl font-extrabold font-sans">Jolpoth</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li>
+              <a href="../home.html" class="mx-4"> Home </a>
+            </li>
+            <li>
+              <a href="./blogs.html" class="mx-4"> Blogs </a>
+            </li>
+            <li>
+              <a href="./about.html" class="mx-4"> About Us </a>
+            </li>
+            <li>
+              <a href="./our_tours.html" class="mx-4"> Our Tours </a>
+            </li>
+            <li>
+              <a href="./travelStory.html" class="mx-4"> Travel Story </a>
+            </li>
+            <li>
+              <a href="./contact.html" class="mx-4"> Contact us </a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-transparent text-white" href="./register.html"
+            >Register Now</a
+          >
+        </div>
+      </div>
+      <!-- <div class="bg-black absolute opacity-25 h-full z-30 w-full left-0 top-0"></div> -->
+    </header>
+    <div class="max-w-[1400px] mx-auto">
+      <div class="">
+        <img
+          src="../assets/bannerofts.jpg"
+          alt=""
+          class="w-full max-h-[450px]"
+        />
+      </div>
+      <div class="storyDiv">
+        <div class="text-center my-12 space-y-2">
+          <h1 class="text-3xl font-bold">Travel Story</h1>
+          <p class="font-mono">
+            Welcome to Bangladesh: Where Hospitality Meets History and Nature's
+            Bounty.
+          </p>
+        </div>
+        <div class="grid grid-cols-3 gap-3 w-[90%] mx-auto mb-12">
+          <img src="../assets/TravelStory1.jpg" alt="" class="row-span-2 h-full w-full" />
+          <img
+            src="../assets/TravelStory2.jpg"
+            alt="" class="h-full w-full"
+          /><img src="../assets/TravelStory3.jpg" alt="" class="h-full w-full" />
+          <img
+            src="../assets/TravelStory4.jpg"
+            alt=""
+            class="col-span-2 h-full w-full"
+          />
+        </div>
+      </div>
+    </div>
+    <footer class="footer px-10 lg:px-32 py-10 bg-black text-white">
+      <aside>
+        <h1 class="text-5xl font-extrabold">Jolpoth</h1>
+        <p>Jolpoth Tours & Travels<br />Providing reliable Tours since 2000</p>
+      </aside>
+      <nav>
+        <h6 class="footer-title">Services</h6>
+        <a class="link link-hover">Tours</a>
+        <a class="link link-hover">Accommodation</a>
+        <a class="link link-hover">Side seen</a>
+        <a class="link link-hover">Tour consultancy</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Company</h6>
+        <a class="link link-hover" href="./about.html">About us</a>
+        <a class="link link-hover" href="./contact.html">Contact</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Legal</h6>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+    </footer>
+  </body>
 </html>
