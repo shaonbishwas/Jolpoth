@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../Styles/home.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script
       src="https://kit.fontawesome.com/fd4d75259d.js"
@@ -14,7 +15,196 @@
       type="text/css"
     />
 </head>
-<body>
-    
+<body class="bg-white">
+  <header class="right-0 left-0 mx-auto fixed z-50">
+    <div class="navbar max-w-[1400px] mx-auto text-white">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black rounded-box w-52"
+          >
+            <li>
+              <a href="./home.html" class="mx-4"> Home </a>
+            </li>
+            <li>
+              <a href="./Pages/blogs.html" class="mx-4"> Blogs </a>
+            </li>
+            <li>
+              <a href="./about.html" class="mx-4"> About Us </a>
+            </li>
+            <li>
+              <a href="./Pages/ourTours.html" class="mx-4"> Our Tours </a>
+            </li>
+            <li>
+              <a href="./Pages/travelStory.html" class="mx-4">
+                Travel Story
+              </a>
+            </li>
+            <li>
+              <a href="./Pages/contact.html" class="mx-4"> Contact us </a>
+            </li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-2xl font-extrabold font-sans">Jolpoth</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li>
+            <a href="../home.html" class="mx-4"> Home </a>
+          </li>
+          <li>
+            <a href="./Pages/blog.html" class="mx-4"> Blogs </a>
+          </li>
+          <li>
+            <a href="./Pages/about.html" class="mx-4"> About Us </a>
+          </li>
+          <li>
+            <a href="./Pages/ourTours.html" class="mx-4"> Our Tours </a>
+          </li>
+          <li>
+            <a href="./Pages/travelStory.html" class="mx-4"> Travel Story </a>
+          </li>
+          <li>
+            <a href="./Pages/contact.html" class="mx-4"> Contact us </a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn bg-transparent text-white" href="./register.html"
+          >Register Now</a
+        >
+      </div>
+    </div>
+    <!-- <div class="bg-black absolute opacity-25 h-full z-30 w-full left-0 top-0"></div> -->
+  </header>
+  <!-- =============================================================================Slider======================================================== -->
+  <div class="slider">
+    <div class="list">
+      <div class="item relative border">
+        <img src="../Assets/BlogBanner1.jpg" alt="" />
+        <div
+          class="absolute text-center lg:top-60 w-full px-5 top-[20%] md:top-[30%] lg:px-44 text-white"
+        >
+          <p class="lg:text-[30px]">
+            Embark on unforgettable journeys with Sail Away Adventures! Our boat travel agency specializes in curated cruises, island hopping, and coastal escapades. Whether you’re seeking serene sunsets, thrilling water sports, or tranquil fishing trips, we’ve got you covered. Set sail with us and let the waves carry you to blissful destinations.
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========================================================================popular places======================================================== -->
+  <div class="text-center mt-20 space-y-4">
+    <h1 class="text-4xl font-bold">Blogs</h1>
+    <p>
+      Exploring the Enchanting Charms of Santorini: A Journey into the Heart
+      of bangladesh's Captivating river Paradise <br />
+      Draws Travelers from Across the Globe.
+    </p>
+    <ul class="flex gap-4 justify-center items-center">
+      <li class="text-[#449586] font-bold cursor-pointer">New</li>
+      <li class="font-medium cursor-pointer">Favorite</li>
+      <li class="font-medium cursor-pointer">Trending</li>
+    </ul>
+  </div>
+  <div class="grid grid-cols-1 lg:grid-cols-3 max-w-[1400px] mx-auto my-10 gap-5">
+    <div class=" card card-compact w-[410px] bg-base-100 shadow mx-auto rounded-md">
+      <figure><img class="h-[300px] w-full object-cover" src="../Assets/floatingMarket.jpg" alt="Shoes" /></figure>
+      <div class="card-body bg-white">
+        <h2 class="card-title font-bold">Floating Market</h2>
+        <p>Fickle Flight is your one-stop travel portal. We offer hassle free flight and hotel bookings.</p>
+        <button class="text-white mt-[6px] bg-[#449586] py-3 px-5 rounded-md">See More</button>
+      </div>
+    </div>
+    <div class="card card-compact w-[410px] bg-base-100 shadow mx-auto rounded-lg">
+      <figure><img class="h-[300px] w-full object-cover" src="../Assets/sadarghat.jpg" alt="Shoes" /></figure>
+      <div class="card-body bg-white">
+        <h2 class="card-title font-bold">Sadarghat</h2>
+        <p>Fickle Flight is your one-stop travel portal. We offer hassle free flight and hotel bookings.</p>
+        <button class="text-white mt-[6px] bg-[#449586] py-3 px-5 rounded-md">See More</button>
+      </div>
+    </div>
+    <div class="card card-compact w-[410px] bg-base-100 shadow mx-auto rounded-lg">
+      <figure><img class="h-[300px] w-full object-cover" src="../Assets/kaptiLake.jpg" alt="Shoes" /></figure>
+      <div class="card-body bg-white">
+        <h2 class="card-title font-bold">Kapti Lake</h2>
+        <p>Fickle Flight is your one-stop travel portal. We offer hassle free flight and hotel bookings.</p>
+        <button class="text-white mt-[6px] bg-[#449586] py-3 px-5 rounded-md">See More</button>
+      </div>
+    </div>
+    <div class="card card-compact w-[410px] bg-base-100 shadow mx-auto rounded-lg">
+      <figure><img class="h-[300px] w-full object-cover" src="../Assets/meghna.jpg" alt="Shoes" /></figure>
+      <div class="card-body bg-white">
+        <h2 class="card-title font-bold">Meghna River</h2>
+        <p>Fickle Flight is your one-stop travel portal. We offer hassle free flight and hotel bookings.</p>
+        <button class="text-white mt-[6px] bg-[#449586] py-3 px-5 rounded-md">See More</button>
+      </div>
+    </div>
+    <div class="card card-compact w-[410px] bg-base-100 shadow mx-auto rounded-lg">
+      <figure><img class="h-[300px] w-full object-cover" src="../Assets/brahmaputraRiver.jpg" alt="Shoes" /></figure>
+      <div class="card-body bg-white">
+        <h2 class="card-title font-bold">Brahmaputra River</h2>
+        <p>Fickle Flight is your one-stop travel portal. We offer hassle free flight and hotel bookings.</p>
+        <button class="text-white mt-[6px] bg-[#449586] py-3 px-5 rounded-md">See More</button>
+      </div>
+    </div>
+    <div class="card card-compact w-[410px] bg-base-100 shadow mx-auto rounded-lg">
+      <figure><img class="h-[300px] w-full object-cover" src="../Assets/padmaRiver.jpg" alt="Shoes" /></figure>
+      <div class="card-body bg-white">
+        <h2 class="card-title font-bold">Padma River</h2>
+        <p>Fickle Flight is your one-stop travel portal. We offer hassle free flight and hotel bookings.</p>
+        <button class="text-white mt-[6px] bg-[#449586] py-3 px-5 rounded-md">See More</button>
+      </div>
+    </div>
+  </div>
+  <div class="text-center max-w-[1400px] mx-auto pr-5  mb-20">
+    <i class="fa-solid fa-arrow-left  bg-[#EFF3FA] text-[#449586] px-5 py-4 rounded-md mr-1"></i>
+    <i class="fa-solid fa-arrow-right  bg-[#449586] text-white px-5 py-4 rounded-md"></i>
+  </div>
+
+
+  <!--============================================================================================= footer======================================================================= -->
+  <footer class="footer px-10 lg:px-32 py-10 bg-black text-white">
+    <aside>
+      <h1 class="text-5xl font-extrabold">Jolpoth</h1>
+      <p>Jolpoth Tours & Travels<br />Providing reliable Tours since 2000</p>
+    </aside>
+    <nav>
+      <h6 class="footer-title">Services</h6>
+      <a class="link link-hover">Tours</a>
+      <a class="link link-hover">Accommodation</a>
+      <a class="link link-hover">Side seen</a>
+      <a class="link link-hover">Tour consultancy</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Company</h6>
+      <a class="link link-hover" href="./about.html">About us</a>
+      <a class="link link-hover" href="./contact.html">Contact</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Legal</h6>
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </nav>
+  </footer>
+  <script src="./Scripts/home.js"></script>
 </body>
 </html>
